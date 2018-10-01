@@ -1,9 +1,10 @@
 # css
 Note about css
 
-元素居中常用方法
+1.元素居中常用方法
 
 html
+
 <div class="ourter">
     <div class="inner"></div>
 </div>
