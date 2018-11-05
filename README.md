@@ -2,6 +2,7 @@
 Note about css
 
 1.元素居中常用方法
+① flex布局
 
 html
 
@@ -24,6 +25,20 @@ css
   height: 100px;
   background-color: yellow;
 }
+
+②
+css
+div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+margin-left, margin-top设置技巧： 分别为宽和高的一半
 
 2. Scss混合宏的使用
 
@@ -72,6 +87,8 @@ css
             @extend %mt;
         }
     }
+    
+ 
     
     
     
