@@ -99,6 +99,13 @@ margin-left, margin-top设置技巧： 分别为宽和高的一半
   border-style: solid;
   border-color: transparent transparent yellow;
 }
+
+4. css过度： 
+    技巧 css过度需要指定过度的
+    属性transition-proptype、
+    效果transition-duration(linear\ease\ease-in\ease-out\ease-in-out\cubic-bezier(0,0,0,0)四个<=1的值)
+    持续时间transition-timing-function、
+    开始时间transition-delay
     
  
     
