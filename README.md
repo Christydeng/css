@@ -88,6 +88,18 @@ margin-left, margin-top设置技巧： 分别为宽和高的一半
         }
     }
     
+3. 用css画三角形
+
+<div class="divBox"></div>
+
+.divBox {
+  width: 0px;
+  height: 0px;
+  border-width: 30px;
+  border-style: solid;
+  border-color: transparent transparent yellow;
+}
+    
  
     
     
